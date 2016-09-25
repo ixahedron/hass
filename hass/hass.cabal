@@ -1,0 +1,81 @@
+name:                hass
+version:             0.9.9.0
+description:         Command line password manager written in Haskell. Written to be close to a copy of __pass__.
+                     .
+                     __hass__ is a very simple password store that keeps passwords inside
+                     AES-256 encrypted files inside a simple directory tree residing at
+                     /~\/.hass/. The __hass__ utility provides a series of commands
+                     for manipulating the password store, allowing the user to add, remove,
+                     edit, synchronize, generate, and manipulate passwords.
+                     .
+                     Several of the commands below rely on or provide additional
+                     functionality if the password store directory is also a git repository.
+                     If the password store directory is a git repository, all password store
+                     modification commands will cause a corresponding git commit. 
+                     .
+                     The @init@ command must be run before other commands in order to
+                     initialize the password store. You can read the more detailed
+                     description of the encryption system used in module "Crypto".
+
+license:             MIT
+license-file:        LICENSE
+author:              Ilona Prikule
+maintainer:          I.Prikule@campus.lmu.de
+copyright:           Copyright: (c) 2016 Ilona Prikule
+category:            Password
+build-type:          Simple
+cabal-version:       >=1.10
+
+extra-source-files:
+  README
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Types
+                     , Options
+                     , Crypto
+                     , Helpers
+                     , UtilFunctions
+                     , Git
+                     , Daemon
+  build-depends:       base >= 4.7 && < 5
+                     , directory
+                     , MissingH
+                     , Hclip
+                     , filepath
+                     , process
+                     , containers
+                     , bytestring
+                     , cryptohash
+                     , SimpleAES
+                     , text
+                     , mtl
+                     , fclabels
+                     , daemons
+                     , cassava
+  default-language:    Haskell2010
+
+executable hass-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , hass
+                     , directory
+                     , MissingH
+                     , Hclip
+                     , SimpleAES
+                     , bytestring
+                     , filepath
+                     , fclabels
+  default-language:    Haskell2010
+
+test-suite hass-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , hass
+                     , QuickCheck
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010

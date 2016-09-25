@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>hass-0.9.9.0</title><link href="ocean.css" rel="stylesheet" type="text/css" title="Ocean" /><script src="haddock-util.js" type="text/javascript"></script><script type="text/javascript">//<![CDATA[
+window.onload = function () {pageLoad();};
+//]]>
+</script></head><body><div id="package-header"><ul class="links" id="page-menu"><li><a href="index.html">Contents</a></li><li><a href="doc-index.html">Index</a></li></ul><p class="caption">hass-0.9.9.0</p></div><div id="content"><div id="description"><h1>hass-0.9.9.0</h1><div class="doc"><p>Command line password manager written in Haskell. Written to be close to a copy of <strong>pass</strong>.</p><p><strong>hass</strong> is a very simple password store that keeps passwords inside
+AES-256 encrypted files inside a simple directory tree residing at
+<em>~/.hass</em>. The <strong>hass</strong> utility provides a series of commands
+for manipulating the password store, allowing the user to add, remove,
+edit, synchronize, generate, and manipulate passwords.</p><p>Several of the commands below rely on or provide additional
+functionality if the password store directory is also a git repository.
+If the password store directory is a git repository, all password store
+modification commands will cause a corresponding git commit.</p><p>The <code>init</code> command must be run before other commands in order to
+initialize the password store. You can read the more detailed
+description of the encryption system used in module <a href="Crypto.html">Crypto</a>.</p></div></div><div id="module-list"><p class="caption">Modules</p><ul><li><span class="module"><a href="Crypto.html">Crypto</a></span> -- The logic of a symmetric system used in <strong>hass</strong>.</li><li><span class="module"><a href="Daemon.html">Daemon</a></span> -- A simple helper daemon.</li><li><span class="module"><a href="Git.html">Git</a></span> -- Git helper functions.</li><li><span class="module"><a href="Helpers.html">Helpers</a></span> -- Helper functions to use in Main.</li><li><span class="module"><a href="Options.html">Options</a></span> -- Parse command line arguments.</li><li><span class="module"><a href="Types.html">Types</a></span></li><li><span class="module"><a href="UtilFunctions.html">UtilFunctions</a></span> -- Utility functions for all modules.</li></ul></div></div><div id="footer"><p>Produced by <a href="http://www.haskell.org/haddock/">Haddock</a> version 2.16.1</p></div></body></html>

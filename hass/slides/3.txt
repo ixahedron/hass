@@ -1,0 +1,22 @@
+λ>                                         | 3/ 5|                                           <λ
+
+                                     /=  Unterschied?  \=
+
+      + Kryptosystem:                                       -
+        > pass verwendet gpg                                |      > hass list
+        > ich habe mich für übliches                        -        sd
+          AES-256 entschieden                               |        bananas
+                                                            -         and
+      + Möglichst wenige Abhängigkeiten                     |          lenses
+        von externen Utilities                              -        uni
+                                                            |         uniworx 
+           pass:                            hass:           -        ffp
+        > gpg                               X               |        a
+       (> gpg-agent)                        X               -         very
+        > tree                              X               |          long
+        > grep                            > grep            -           tree
+        > xclip                           > xclip           |            of
+        > pwgen                           > pwgen           -             passwords
+        > git                             > git             |           branching
+                                                            -            here
+λ>                                                                                           <λ

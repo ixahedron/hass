@@ -1,0 +1,22 @@
+λ>                                         | 0/ 5|                                           <λ
+
+
+
+                                 _    _                     
+                     // //      | |  | |                          \\ \\           
+               ==== // //       | |__| |   __ _   ___   ___        \\ \\ ==== 
+                   // //        |  __  |  / _` | / __| / __|        \\ \\
+               == / \ \\        | |  | | | (_| | \__ \ \__ \        // / \ ==
+                 //^\\ \\       |_|  |_|  \__,_| |___/ |___/       // //^\\
+                //   \\ \\                                        // //   \\
+
+                               Ein Passwortmanager in Haskell
+
+
+                                        Ilona Prikule
+                        Für Fortgeschrittene Funktionale Programmierung
+                                    Wintersemester 15/16
+
+
+
+λ>                                                                                           <λ

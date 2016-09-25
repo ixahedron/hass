@@ -1,0 +1,15 @@
+Written as a project in Advanced Functional Programming
+at the Ludwig Maximilian University
+in winter 2015/2016
+by Ilona Prikule
+
+
+================
+  Compilation
+================
+
+To compile, just run
+> stack setup
+> stack build
+
+If you prefer not to use stack, hass.cabal with a list of build-dependencies is readily available.

@@ -1,0 +1,22 @@
+λ>                                         | 2/ 5|                                           <λ
+
+                                     |--  Grundlagen  --|
+      
+
+  + Basierend auf pass                             
+                                                       
+      PASS(1)
+
+  NAME                                               > Dieselbe Ideologie
+    pass - stores, retrieves, generates,
+    and synchronizes passwords securely              > (Fast) gleiche Liste von Befehlen
+
+  DESCRIPTION                                        > Ähnliche Passwortstore-Struktur
+    pass is a very simple password store
+    that keeps passwords inside gpg2(1)
+    encrypted files inside a simple directory
+    tree residing at ~/.password-store.
+    ... ... ...
+
+
+λ>                                                                                           <λ

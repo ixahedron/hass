@@ -1,0 +1,22 @@
+λ>                                         | 4/ 5|                                           <λ
+
+
+                                            > filter (`elem` themenVorlesung) hassTechniken
+                                            - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+            + Applicative Funktoren, Monaden, Records
+            + View Patterns, Exceptions
+
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+            + Symmetrische Kryptosysteme
+            + Linux daemons
+            + Linsen
+            + Template Haskell
+            + Simpler Monadentransformer
+
+                                             - - - - - - - - - - - - - - -  
+                                             > tail . tail $ hassTechniken 
+
+λ>                                                                                           <λ

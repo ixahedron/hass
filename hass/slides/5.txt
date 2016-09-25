@@ -1,0 +1,22 @@
+λ>                                         | 5/ 5|                                           <λ
+
+
+
+  
+                                  Tools benutzt:
+
+
+                                  + vim
+
+                                  + Stack
+
+                                  + Haddock
+
+                                  + ghci-Skript von Jonn Mostovoy (github.com/manpages)
+                                      zur Erstellung dieser Präsentation
+
+
+
+
+
+λ>                                                                                           <λ

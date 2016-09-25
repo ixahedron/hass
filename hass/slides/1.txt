@@ -1,0 +1,22 @@
+λ>                                          | 1/ 5|                                          <λ
+
+
+             Was ist die                     Idee?
+              
+
+                                                                  # # # # 
+      + Passwörter verwalten                                      _------_ #
+                                                              # -~        ~-
+      + Kommandozeileninterface                                -     _      - #
+                                                            # -      |>      -
+      + Simple Struktur                                       -      |<      -#
+                                                             # -     |>     -
+      + Volle Funktionalität                                    -    ||    - #
+                                                               # -   ||   -
+                                                                  -__||__- 
+                                                                  |______|
+                                                                  <______>
+                                                                  <______>
+                                                                     \/
+
+λ>                                                                                           <λ
